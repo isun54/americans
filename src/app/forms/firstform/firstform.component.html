@@ -1,0 +1,18 @@
+<p>firstform works!</p>
+
+
+<form>
+    <label> <input [formControl]="name"></label>
+    <label> <input [formControl]="age"></label>
+    <button (click)="add()"></button>
+</form>
+<table id="table" border="1">
+    <tr>
+        <td>name</td>
+        <td>age</td>
+    </tr>
+    <tr *ngFor="let uf of updateforms" >
+        <td>{{uf.name}}</td>
+        <td>{{uf.age}}</td>
+    </tr>
+</table>

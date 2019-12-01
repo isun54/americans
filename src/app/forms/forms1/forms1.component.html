@@ -1,0 +1,20 @@
+<form [formGroup]="group" 
+    (ngSubmit)="contactUsForm_onSubmit()">
+
+   
+    <label>name: </label><input formControlName="name"><br>
+    <label>email: </label><input formControlName="email"><br>
+    <label>phone: </label><input formControlName="phone"><br>
+    <label>text: </label><input formControlName="text"><br>
+        
+    
+    
+    <label>whatsapp: </label>
+    <input type="checkbox" formControlName="whatsapp"><br>
+
+    <button>submit</button>
+</form>
+
+<div>{{message}}</div>
+
+<app-contact-table></app-contact-table>
