@@ -8,13 +8,13 @@ import { HispanicAmericanComponent } from './people/hispanic-american/hispanic-a
 import { JewishAmericanComponent } from './people/jewish-american/jewish-american.component';
 import { NativeAmericanComponent } from './people/native-american/native-american.component';
 import { EuroAmericanComponent } from './people/euro-american/euro-american.component';
-import { AmericanComponent } from './people/american/american.component';
 import { FirstformComponent } from './forms/firstform/firstform.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { ContactUs1Component } from './forms/contact-us1/contact-us1.component';
 import { ContactTableComponent } from './comps/contact-table/contact-table.component';
 import { Forms1Component } from './forms/forms1/forms1.component';
+import { AmericanComponent } from './people/american/american.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +24,11 @@ import { Forms1Component } from './forms/forms1/forms1.component';
     JewishAmericanComponent,
     NativeAmericanComponent,
     EuroAmericanComponent,
-    AmericanComponent,
     FirstformComponent,
     ContactUs1Component,
     ContactTableComponent,
-    Forms1Component
+    Forms1Component,
+    AmericanComponent
 
   ],
   imports: [
